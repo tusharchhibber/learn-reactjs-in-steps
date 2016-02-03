@@ -6,8 +6,9 @@ import App from './components/App';
 main();
 
 function main() {
-  var app = document.createElement('div');
-  document.body.appendChild(app);
+  var div = document.createElement('div');
+  div.setAttribute("id", "todoapp");
+  document.body.appendChild(div);
 
-  React.render(<App />, app);
+  React.render(<App />, div);
 }

@@ -1,3 +1,6 @@
+#### Following episodes 01-18 of this series... made changes in this folder
+
+
 #### Setting up the application
 
 ```
